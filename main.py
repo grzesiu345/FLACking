@@ -42,6 +42,15 @@ def get_music_library():
 def index():
     return send_from_directory('static', 'index.html')
 
+@app.route("/ws/<a>")
+def scriptwebsite(a):
+    if a == "js":
+        return send_from_directory('static', 'script.js')
+    elif a == "css":
+        return send_from_directory('static', 'style.css')
+    else:
+        abort(404)
+
 @app.route('/api/library')
 def library():
     data = get_music_library()
