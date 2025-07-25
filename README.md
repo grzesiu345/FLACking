@@ -1,5 +1,5 @@
 # FLACking - FLAC music streaming website
-![how it looks like](blob:https://github.com/1d06eb5a-91dd-43bc-af00-b0629323fd20)
+![how it looks like](https://raw.githubusercontent.com/grzesiu345/FLACking/refs/heads/main/image.png)
 ## How it works?
 normally, just put music (with cover.jpg) in right directory and it should be working.
 
